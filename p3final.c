@@ -6,12 +6,13 @@ int input()
   scanf("%d", &a);
   return a;
 }
-int sum_n(int n){
-  int asn=0;
-  for(int i=1; i<=n; i++){
+{
+int sum_n(int n)
+int sum=0;
+  for(int i=1; i<=n; i++)
 }
-return asn;
-}
+return sum;
+{
 void output(int n, int sum){
   for(int i=1; i<n; i++){
     printf("%d+", i);
